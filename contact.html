@@ -66,6 +66,40 @@
                 #cnts {
                     border: 1px solid teal;
                     background-color: lavender;
+                    margin-right: 10px;
+                }
+                #bgclr {
+                    background-color: lightgray;
+                    color: white;
+                    margin-top: 20px;
+                    margin-right: 5px;
+                    }
+                #fb {
+                    background-color: rgb(100, 110, 245);
+                    color: whitesmoke;
+                    padding: 10px;
+                    font-size: 25px;
+                     text-align: center;
+                     float: right;
+                     margin-top: 2px;
+                     margin-left: 5px;
+                    text-decoration: none;
+                    border-radius: 50%;
+                    border: 1px solid red;
+                }
+                #fb:hover {
+                    background-color: aqua;
+                    color: black;
+                }
+                #resbtn {
+                    background-color: rgb(100, 110, 245);
+                    margin-top: 15px;
+                    border: 1px solid red;
+                    color: aliceblue;
+                }
+                #resbtn:hover {
+                    background-color: aqua;
+                    color: black;
                 }
             
             </style> 
@@ -73,10 +107,11 @@
         <body>
             <div class="row" id="nav">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-4">
-                     <h1>Chandra Chhetri</h1>
+                <div class="col-sm-5">
+                    <h1> Hi! I am
+                    Chandra Chhetri</h1>
                 </div>
-                <div class="col-sm-5 text-right" id="tags">
+                <div class="col-sm-4 text-right" id="tags">
                     <a href="contact.html"span id="cnts">Contact</a>
                     <a href="index.html"span id="cnts">About</a>                        
                     <a href="portfolio.html"span id="cnts">Portfolio</a>
@@ -93,11 +128,10 @@
 
                             <form>
                                 <div class="form-group">
-                                        <label for="exampleInputEmail1">Name</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name here">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                    
+                                    <label for="exampleInputEmail1">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"aria-describedby="emailHelp" placeholder="Enter name here">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"aria-describedby="emailHelp" placeholder="Enter email">                      
                                     <label for="exampleFormControlTextarea1">message</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
@@ -105,7 +139,19 @@
                             <button type="button" class="btn btn-primary btn-lg" id="btnclr">Submit</button>
                         </div>
                     </div>
-                 </div>
+                </div>
+                <div class="row" id="media">
+                    <div class="col-sm-1"></div>
+
+                    <div class="col-sm-10" id="bgclr">
+                        <a href="C:\Users\chhet\Bootstrap-Portfolio\images\Resume.doc">
+                        <button class="w3-button w3-block" id="resbtn" style="width:25%">View My Resume</button>
+                        </a>
+                        <a href="https://www.linkedin.com/feed/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4vdOosbbTmuKiT%2BKQ4v2cQ%3D%3D" id="fb">in</a>
+                        <a href="https://www.facebook.com/profile.php?id=100004993837879" id="fb">fb</a>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
                  <div class="card">
                     <div class="card-body text-center">
                         <a href="https://twitter.com/login?lang=en" id="fttxtclr">log into twitter</a>
