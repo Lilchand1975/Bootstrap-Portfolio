@@ -1,6 +1,8 @@
 <!DOCTYPE html>
- <html>
+ <html lang="en-us">
      <head>
+         <meta charset="UTF-8">
+            <title>My Portfolio</title>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
             <style>
                 body {
@@ -9,7 +11,7 @@
                 #nav {
                     width: 100%;
                     height: 70px;
-                    background-color: #ffffff;
+                    background-color:whitesmoke;
 
                 }
                 h1 {
@@ -20,85 +22,171 @@
                     margin-right: 10px;
                     margin-left: 50px;
                     }
-                h2 {
-                    background-color: #ffffff;
+                p {
+                    text-align: center
+                }
+                #ctnr {
+                    background-color: darkgray
+                }
+                #pfclr {
+                    background-color:mintcream;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-style: oblique;
                     margin-right: 60px;
-                    height: 40px;
+                    margin-top: 5px;
+                    height: 45px;
                 }
                 #bgclr {
-                    background-color: #ffffff;
-                }
-                .top-pad {
-                    margin-top: 30px;
-                }
-                #bcgclr {
                     background-color: #666666;
-                    margin-top: 25px;
                     color: white;
+                    border: 2px solid rgb(209, 58, 58);
+                    margin-right: 5px;
                     }
                 #fttxtclr {
                     color: whitesmoke;
+                    padding: 5px;
+                    border: 1px solid black;
+                    background-color: rgb(3, 64, 85);
+                    margin-bottom: 5px;
+                }
+                .card {
+                    background-color: #6666;
+                    color: whitesmoke;
+                    height: 50px;
+                    float: unset;
+                    margin-top: 50px;
+                    text-align: center;
+                }
+                #tags {
+                    margin-left: 30px;
+                    text-align: center;
+                    font-size: 16px;
+                    margin-top: 20px;
+                }
+                #cnts {
+                    border: 1px solid rgb(89, 141, 141);
+                    background-color: lavender;
+                }
+                #resbtn {
+                    background-color: rgb(100, 110, 245);
+                    margin-top: 15px;
+                    border: 1px solid red;
+                    color: aliceblue;
+                }
+                #resbtn:hover {
+                    background-color: aqua;
+                    color: black;
+                }
+                
+                #media {
+                    height: 60px;
+                }
+                #fb {
+                    background-color: rgb(100, 110, 245);
+                    color: whitesmoke;
+                    padding: 10px;
+                    font-size: 25px;
+                     text-align: center;
+                     float: right;
+                     margin-top: 2px;
+                     margin-left: 5px;
+                    text-decoration: none;
+                    border-radius: 50%;
+                    border: 1px solid red;
+                }
+                #fb:hover {
+                    background-color: aqua;
+                    color: black;
                 }
             </style>
      </head>
 
      <body>
             <div class="row" id="nav">
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-4">
-                         <h1>Chandra Chhetri</h1>
-                    </div>
-                    <div class="col-sm-4 text-right">
-                            <a href="contact.html">
-                                    Contact
-                                    </a>
-                            <a href="index.html">About</a>                        
-                            <a href="portfolio.html"></ahref>Portfolio</a>
-                    </div>
-                    <div class="col-sm-2"></div>
-             </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-8 top-pad" id="bgclr" >
-                            <h2> Portfolio</h2> 
-                        </div>
-                        <div class="col-sm-2"></div>
-                        <hr />
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-4" id="bgclr">
-                                <img src="images/bird1.jpg" alt="468.PNG" class="img-thumbnail" height="200" width="300"/>
-                        </div>
-                        <div class="col-sm-4" id="bgclr">
-                            <a href="https://lilchand1975.github.io/Giftastic/">
-                                <img src="images/ajax.jpeg" alt="468.PNG" class="img-thumbnail" height="200" width="300"/>
-                            </a>
-                            </div>
-                        <div class="col-sm-2"></div>                        
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-2"></div>
-                            <div class="col-sm-8" id="bgclr">
-                                <img src="images/bird3.jpg" alt="468.PNG" class="img-thumbnail" height="200" width="300"/>
-                                    <img src="images/bird4.jpg" alt="468.PNG" class="img-thumbnail" height="200" width="300"/>
-                                <a href="https://lilchand1975.github.io/unit-4-game/">
-                                    <img src="images/crystal-blue.jpg" class="img-thumbnail" height="200" width="300"/>
-                                <a href="https://lilchand1975.github.io/TriviaGame/">
-                                    <img src="images/default.jpg" class="img-thumbnail" height="200" width="300"/>
-                                </a>
-                            </div>
-                        <div class="col-sm-2"></div>
-                    </div>                         
-                                   
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4">
+                     <h1>Chandra Chhetri</h1>
                 </div>
-                <div class="card" id="bcgclr">
-                    <div class="card-body text-center">
-                         <a href="https://twitter.com/login?lang=en" id="fttxtclr">log into twitter</a>
+                <div class="col-sm-6 text-right" id="tags">
+                    <a href="contact.html" span id="cnts">Contact</a>
+                    <a href="index.html" span id="cnts">About</a>                        
+                    <a href="portfolio.html" span id="cnts">Portfolio</a>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <div class="container" id="ctnr">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10 top-pad" id="pfclr" >
+                        <h2> Portfolio</h2> 
                     </div>
-             </div>           
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3.3" id="bgclr">
+                        <p>Time Table Train</p>
+                        <a href="https://lilchand1975.github.io/Time-Table-Train/.">
+                            <img src="images/train.jpeg" alt="468.PNG" class="img-thumbnail" height="100" width="310"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3.3" id="bgclr">
+                        <p>Trivia Game</p>
+                        <a href="https://lilchand1975.github.io/TriviaGame/">
+                            <img src="images/default.jpg" class="img-thumbnail" height="200" width="310"/>
+                        </a> 
+                    </div>
+                    <div class="col-sm-3.3" id="bgclr">
+                        <p>New work </p>
+                        <img src="images/sst.jpg" alt="468.PNG" class="img-thumbnail" height="200" width="310"/>
+                    </div>
+                    <div class="col-sm-1"></div>                        
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-1"></div>
+
+                    <div class="col-sm-3.3" id="bgclr">
+                        <p>FIFA 2018</p>
+                        <a href="https://rebeccaleon.github.io/fifastic-wc-18/index-new.html">
+                            <img src="images/fifa.jpg" alt="468.PNG" class="img-thumbnail" height="100" width="310"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3.3" id="bgclr">
+                        <p>Crystal Game</p>
+                        <a href="https://lilchand1975.github.io/unit-4-game/">
+                            <img src="images/crystal-blue.jpg" class="img-thumbnail" height="200" width="310"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3.3" id="bgclr">
+                        <p>Giftastic Game</p>
+                        <a href="https://lilchand1975.github.io/Giftastic/">
+                            <img src="images/ajax.jpeg" alt="468.PNG" class="img-thumbnail" height="100" width="310"/>
+                        </a> 
+                    </div>
+                    
+                    <div class="col-sm-1"></div>
+                </div>                         
+                                   
+            
+                <div class="row" id="media">
+                    <div class="col-sm-1"></div>
+
+                    <div class="col-sm-10" id="bgclr">
+                        <a href="C:\Users\chhet\Bootstrap-Portfolio\images\Resume.doc">
+                        <button class="w3-button w3-block" id="resbtn" style="width:25%">View My Resume</button>
+                        </a>
+                        <a href="https://www.linkedin.com/feed/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4vdOosbbTmuKiT%2BKQ4v2cQ%3D%3D" id="fb">in</a>
+                        <a href="https://www.facebook.com/profile.php?id=100004993837879" id="fb">fb</a>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+                <div class="card">
+                    <div class="card-body text-center">
+                        <a href="https://twitter.com/login?lang=en" id="fttxtclr">log into twitter</a>
+                    </div>
+                </div>  
             
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -106,3 +194,4 @@
      </body>
 
  </html>
+ 

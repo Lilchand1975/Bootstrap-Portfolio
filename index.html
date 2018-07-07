@@ -1,6 +1,7 @@
 <!DOCTYPE html>
  <html lang="en-us">
-     <head metacharset="utf-8">
+     <head>
+        <meta charset="utf-8">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
              integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
             <style>
@@ -39,59 +40,78 @@
                     }
                 #fttxtclr {
                     color: whitesmoke;
+                    padding: 5px;
+                    border: 1px solid black;
+                }
+                #tags {
+                    margin-left: 30px;
+                    text-align: center;
+                    font-size: 16px;
+                    margin-top: 15px;
+                    float: right;
+                } 
+                #cnts {
+                    border: 1px solid teal;
+                    background-color: lavender;
+                }
+                .card {
+                    background-color: #6666;
+                    color: whitesmoke;
+                    height: 50px;
+                    float: unset;
+                    margin-top: 50px;
+                    text-align: center;
                 }
             </style>
      </head>
 
      <body>
-            <div class="row" id="nav">
-                    <div class="col-sm-2"></div>
-
-                    <div class="col-sm-4">
-                         <h1>Chandra Chhetri</h1>
-                    </div>
-                    <div class="col-sm-4 text-right">
-                        <a href="contact.html">Contact</a>
-                        <a href="index.html">About</a>                        
-                        <a href="portfolio.html"></ahref>Portfolio</a>
-                    </div>
-
-                    <div class="col-sm-2"></div>
+        <div class="row" id="nav">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+                 <h1>Chandra Chhetri</h1>
             </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-8 top-pad" id="bgclr" >
-                            <h2> About Me</h2> 
-                        </div>
-                        <div class="col-sm-2"></div>
-                        <hr />
+            <div class="col-sm-5 text-right" id="tags">
+                <a href="contact.html"span id="cnts">Contact</a>
+                <a href="index.html"span id="cnts">About</a>                        
+                <a href="portfolio.html"span id="cnts">Portfolio</a>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 top-pad" id="bgclr" >
+                    <h2> About Me</h2> 
+                </div>
+                <div class="col-sm-2"></div>
+                <hr/>
+            </div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4" id="bgclr">
+                            <img src="images/image.jpg" alt="468.PNG" class="img-thumbnail" height="200" width="300"/>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-4" id="bgclr">
-                                <img src="images/image.jpg" alt="468.PNG" class="img-thumbnail" height="200" width="300"/>
-                        </div>
-                        <div class="col-sm-4" id="bgclr">
-                            <p> Thirty days have september april june and november all the rest have thirty one february alone twenty eight an twenty nine in leap year. this used to be a popular rhyme i used to sing when i was in an elementaty school. Now i realize that it has some meaning in it.</p>
-                            <p> Thirty days have september april june and november all the rest have thirty one february alone twenty eight an twenty nine in leap year. this used to be a popular rhyme i used to sing when i was in an elementaty school. Now i realize that it has some meaning in it.</p>
-                        </div>
-                        <div class="col-sm-2"></div>                        
+                    <div class="col-sm-4" id="bgclr">
+                        <p>I am Chandra Chhetri, born and brought up in Bhutan. I completed my elemantary education in Bhutan in 1990 and movedto Nepal to continue secondary and heigher secondary education. Successfully completed bachelors degree in Nepal andstarted my first profession as a teacher. I, along with my family came to America in 2008 as Refugees from Bhutan. </p>
+                        <p>Initially i found it little tough to stablish new life in new country but gradually things started aligning and lifestarted being easier. I realized that i needed to go to college for better job. Joined JSR in 2010 and graduated in2015 as a bachelor in human services. </p>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-8" id="bgclr">
-                                <p> Thirty days have september april june and november all the rest have thirty one february alone twenty eight an twenty nine in leap year. this used to be a popular rhyme i used to sing when i was in an elementaty school. Now i realize that it has some meaning in it.</p>
-                        </div>
-                        <div class="col-sm-2"></div>
-                    </div>                         
+                    <div class="col-sm-2"></div>                        
+                </div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8" id="bgclr">
+                        <p>I began my first job as a case worker with Church World Services in 2015 soon after my graduation. It was a pleasantexperience to help new immigrants resettle in Richmond Virginia. I moved on to become a school liaison in early 2018 and serve the immigrant families through Commonwealth Catholic Charities.And now i am making an attempt to change my profession and go into software development through coding bootcamp through University of Richmond. </p>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>                         
                                    
                 </div>
-                <div class="card" id="bcgclr">
-                    <div class="card-body text-center">
-                         <a href="https://twitter.com/login?lang=en" id="fttxtclr">log into twitter</a>
-                    </div>
+                <div class="card">
+                        <div class="card-body text-center">
+                            <a href="https://twitter.com/login?lang=en" id="fttxtclr">log into twitter</a>
+                        </div>
+                     </div>
              </div>           
             
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
