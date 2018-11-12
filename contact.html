@@ -1,168 +1,213 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Bootstrap-Portfolio
-        </title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <style>
-             
+  <head>
+    <title>My Contact page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: lightgray;
+      }
+      #nav {
+        background-color: whitesmoke;
+        height: 75px;
+      }
 
-            body {
-                 background-color:lightgray;
-                 }
-                 #nav {
-                     background-color: whitesmoke;
-                     height: 75px;
-                 }
+      h2 {
+        background-color: teal;
+        color: whitesmoke;
+        height: 75px;
+        padding: 15px;
+      }
 
-                h1 {
-                    background-color: teal;
-                    color: whitesmoke;
-                    height: 75px;
-                    padding: 15px;
-                }
+      h3 {
+        margin-left: 5px;
+      }
 
-                h2 {
-                    margin-left: 5px;
-                }
+      #bodybgcolor {
+        background-color: #ffffff;
+        margin-top: 30px;
+      }
+      form {
+        margin-left: 15px;
+      }
+      button {
+        margin-left: 15px;
+        margin-bottom: 15px;
+      }
+      .card {
+        background-color: #6666;
+        color: whitesmoke;
+        height: 50px;
+        float: unset;
+        margin-top: 50px;
+      }
+      #fttxtclr {
+        color: #3c09f3;
+        padding: 5px;
+        border: 1px solid black;
+      }
+      #btnclr {
+        background-color: teal;
+      }
+      #tags {
+        margin-left: 30px;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 15px;
+        float: right;
+      }
+      #cnts {
+        margin-right: 15px;
+      }
+      #bgclr {
+        background-color: lightgray;
+        color: white;
+        margin-top: 20px;
+        margin-right: 5px;
+      }
+      #fb {
+        background-color: rgb(100, 110, 245);
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 25px;
+        text-align: center;
+        float: right;
+        margin-top: 2px;
+        margin-left: 5px;
+        text-decoration: none;
+        border-radius: 50%;
+        border: 1px solid red;
+      }
+      #fb:hover {
+        background-color: aqua;
+        color: black;
+      }
+      #resbtn {
+        background-color: rgb(100, 110, 245);
+        margin-top: 15px;
+        border: 1px solid red;
+        color: aliceblue;
+      }
+      #resbtn:hover {
+        background-color: aqua;
+        color: black;
+      }
+      #contact {
+        margin-left: 50px;
+        margin-top: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row" id="nav">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-4"><h2>Chandra Chhetri</h2></div>
+      <div class="col-sm-6 text-right" id="tags">
+        <a href="contact.html" span id="cnts">Contact</a>
+        <a href="index.html" span id="cnts">About</a>
+        <a href="portfolio.html" span id="cnts">Portfolio</a>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <!-- row 2 -->
+    <div class="Container ">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6" id="bodybgcolor">
+          <h3>Contact</h3>
+          <hr />
 
-                
-                #bodybgcolor {
-                    background-color: #ffffff;
-                    margin-top: 30px;
-
-                }
-                form {
-                    margin-left: 15px;
-                }
-                button {
-                    margin-left: 15px;
-                    margin-bottom: 15px;
-                }
-                .card {
-                    background-color: #6666;
-                    color: whitesmoke;
-                    height: 50px;
-                    float: unset;
-                    margin-top: 50px;
-
-                }
-                #fttxtclr {
-                    color:#ffffff;
-                    padding: 5px;
-                    border: 1px solid black;
-                }
-                #btnclr {
-                    background-color: teal;
-                }
-                #tags {
-                    margin-left: 30px;
-                    text-align: center;
-                    font-size: 16px;
-                    margin-top: 15px;
-                    float: right;
-                } 
-                #cnts {
-                    border: 1px solid teal;
-                    background-color: lavender;
-                    margin-right: 10px;
-                }
-                #bgclr {
-                    background-color: lightgray;
-                    color: white;
-                    margin-top: 20px;
-                    margin-right: 5px;
-                    }
-                #fb {
-                    background-color: rgb(100, 110, 245);
-                    color: whitesmoke;
-                    padding: 10px;
-                    font-size: 25px;
-                     text-align: center;
-                     float: right;
-                     margin-top: 2px;
-                     margin-left: 5px;
-                    text-decoration: none;
-                    border-radius: 50%;
-                    border: 1px solid red;
-                }
-                #fb:hover {
-                    background-color: aqua;
-                    color: black;
-                }
-                #resbtn {
-                    background-color: rgb(100, 110, 245);
-                    margin-top: 15px;
-                    border: 1px solid red;
-                    color: aliceblue;
-                }
-                #resbtn:hover {
-                    background-color: aqua;
-                    color: black;
-                }
-            
-            </style> 
-    </head>
-        <body>
-            <div class="row" id="nav">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-5">
-                    <h1> Hi! I am
-                    Chandra Chhetri</h1>
-                </div>
-                <div class="col-sm-4 text-right" id="tags">
-                    <a href="contact.html"span id="cnts">Contact</a>
-                    <a href="index.html"span id="cnts">About</a>                        
-                    <a href="portfolio.html"span id="cnts">Portfolio</a>
-                </div>
-                <div class="col-sm-1"></div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter name here"
+              />
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <label for="exampleFormControlTextarea1">message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
             </div>
-                 <!--row 2-->
-                <div class="Container ">
-                    <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-8" id="bodybgcolor">
-                            <h2> Contact </h2>
-                            <hr />
+          </form>
 
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Name</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1"aria-describedby="emailHelp" placeholder="Enter name here">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"aria-describedby="emailHelp" placeholder="Enter email">                      
-                                    <label for="exampleFormControlTextarea1">message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                            </form>
-                            <button type="button" class="btn btn-primary btn-lg" id="btnclr">Submit</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" id="media">
-                    <div class="col-sm-1"></div>
+          <button type="button" class="btn btn-primary btn-lg" id="btnclr">
+            Submit
+          </button>
+        </div>
+        <div class="col-sm-4" id="contact">
+          <p><u>Contact me</u></p>
+          <br />
+          <p>Chandra Chhetri</p>
+          <p>7926 Chowning Road Henrico, VA 23294</p>
+          <p>Email:chhetricc@gmail.com</p>
+          <p>(804) 551-4771</p>
+        </div>
+      </div>
+    </div>
 
-                    <div class="col-sm-10" id="bgclr">
-                        <a href="C:\Users\chhet\Bootstrap-Portfolio\images\Resume.doc">
-                        <button class="w3-button w3-block" id="resbtn" style="width:25%">View My Resume</button>
-                        </a>
-                        <a href="https://www.linkedin.com/feed/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4vdOosbbTmuKiT%2BKQ4v2cQ%3D%3D" id="fb">in</a>
-                        <a href="https://www.facebook.com/profile.php?id=100004993837879" id="fb">fb</a>
-                    </div>
-                    <div class="col-sm-1"></div>
-                </div>
-                 <div class="card">
-                    <div class="card-body text-center">
-                        <a href="https://twitter.com/login?lang=en" id="fttxtclr">log into twitter</a>
-                    </div>
-                 </div>
+    <div class="row" id="media">
+      <div class="col-sm-1"></div>
 
+      <div class="col-sm-10" id="bgclr">
+        <a href="C:\Users\chhet\Bootstrap-Portfolio\images\Resume.doc">
+          <button class="w3-button w3-block" id="resbtn" style="width:25%">
+            View My Resume
+          </button>
+        </a>
+        <a
+          href="https://www.linkedin.com/feed/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4vdOosbbTmuKiT%2BKQ4v2cQ%3D%3D"
+          id="fb"
+          >in</a
+        >
+        <a
+          href="https://www.facebook.com/profile.php?id=100004993837879"
+          id="fb"
+          >fb</a
+        >
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="card">
+      <div class="card-body text-center">
+        <a href="https://twitter.com/login?lang=en" id="fttxtclr"
+          >log into twitter</a
+        >
+      </div>
+    </div>
 
-                
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-        </body>
-        
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

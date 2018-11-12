@@ -1,2 +1,3 @@
-# Bootstrap-Portfolio
-my Portfolio
+This is my personal portfolio which contains factual information about me. Once you get into my index page, you can navigate to other pages through buttons on the top right page. My contact page has information pertaining to me and my brief history. Moving on to my portfolio page, you will find several project works in worked on and developed. This page gets stuff added on almost every week as i work on newer projects and i keep updating my portfolio page. 
+
+I do maintain any changes and bug fixes in these projects. 
